@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Mali:400,500,700|Mansalva|Overlock:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monofett|Purple+Purse&display=swap');
+
+/*
+color of main: rgb(233,233,233)
+color of div: rgb(205, 205, 205)
+color of nav: rgb(153,211,223)
+color of pointer: rgb(136,187,214)
+*/
+
+body {
+  background-color: rgb(233,233,233);
+  color: white;
+}
+
+#left-block {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: rgb(153,211,223);
+}
+
+nav .ptr:hover {
+  background-color: rgb(136,187,214);
+}
+
+main>section {
+    background-color: rgb(205, 205, 205);
+}
+
+h1 {
+  color: rgb(136,187,214);
+}
+
+body{
+  font-size: 20px;
+  font-family: 'Mali', cursive;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+#head-bar {
+  color: rgb(153,211,223);
+}
+
+#bar-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sign-in, #sign-up, #search-container {
+  margin: 1% 2%;
+}
+
+#sign-in, #sign-up {
+  width: 25%;
+}
+
+#search-container {
+  width: 50%;
+  padding: 5px;
+}
+
+#search-img {
+  margin: auto;
+  height: 20px;
+  cursor: pointer;
+}
+
+#search-box {
+  font: 10px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+/*Font for titles*/
+h1, h2, h3, #search-container, #sign-in, #sign-up {
+  font-family: 'Mansalva', cursive;
+}
+
+h1 {
+  margin: 40% auto;
+  padding: 10px;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 40px 15px;
+  font: center;
+  border: 5px black;
+  border-radius: 10px;
+}
+
+h2>p {
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ptr {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 30px;
+  text-align: center;
+}
+
+
+header, main {
+  margin-right: 40%;
+}
+
+footer {
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main>section {
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#ranking-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+#ranking-container>div {
+  margin: 1em;
+  width: 30%;
+  background-color: white;
+}
+
+p{
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
