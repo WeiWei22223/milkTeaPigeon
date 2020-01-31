@@ -40,8 +40,7 @@ body{
 }
 
 header {
-  display: flex;
-  flex-direction: column;
+  width: 60%;
 }
 
 #head-bar {
@@ -51,24 +50,26 @@ header {
 #bar-container {
   display: flex;
   justify-content: space-evenly;
-}
-
-#sign-in, #sign-up, #search-container {
-  margin: 1% 2%;
+  align-items: center;
 }
 
 #sign-in, #sign-up {
-  width: 25%;
+  text-align: center;
 }
 
 #search-container {
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-container {
   padding: 5px;
 }
 
 #search-img {
-  margin: auto;
   height: 20px;
+  margin-left: 1rem;
   cursor: pointer;
 }
 
@@ -78,13 +79,23 @@ header {
   border: 1px solid white;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+}
+
 /*Font for titles*/
 h1, h2, h3, #search-container, #sign-in, #sign-up {
   font-family: 'Mansalva', cursive;
 }
 
 h1 {
-  margin: 40% auto;
+
   padding: 10px;
   font-size: 80px;
   font-weight: 700;
@@ -142,6 +153,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   bottom: 30px;
+  margin-top: 3em;
 }
 
 main {
